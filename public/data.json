@@ -1,0 +1,106 @@
+{
+  "creators": [
+    {
+      "id": "@rosekamallove",
+      "cover_art_url": "https://user-images.githubusercontent.com/69139607/228884799-f2cee78a-2483-40ec-a729-538c9914c3ff.png",
+      "name": "Rose Kamal Love",
+      "image_url": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680098256/1676536900360_gpwhyw.jpg",
+      "topmate_url": "https://topmate.io/rosekamallove",
+      "bio": "A friendly ambivert who loves writing software, trying to make a difference through YouTube and Kroto.",
+      "links": [
+        { "href": "https://www.youtube.com/@rosekamallove", "type": "youtube" },
+        {
+          "href": "https://www.linkedin.com/in/rose-kamal-love-1146141b0",
+          "type": "linkedin"
+        },
+        { "href": "https://twitter.com/RoseKamalLove1", "type": "twitter" },
+        {
+          "href": "https://www.instagram.com/rosekamallove",
+          "type": "instagram"
+        },
+        { "href": "https://www.rosekamal.love/", "type": "website" },
+        {
+          "href": "https://www.kroto.in/",
+          "type": "other",
+          "text": "kroto.in"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "title": "Full Stack Blog App with Next.js",
+      "description": "In this video series, I will review how I built https://rosekamal.love using Next.js as the front-end framework, tailwind CSS for the styling system, TRPC for  API Routes, and Prisma for our Database. ",
+      "price": 0,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "hhfh456"
+    },
+    {
+      "title": "Full Stack Blog App with Next.js",
+      "description": "In this video series, I will review how I built https://rosekamal.love using Next.js as the front-end framework, tailwind CSS for the styling system, TRPC for  API Routes, and Prisma for our Database. I will show you how to create a complete stack application that is type-safe from the backend till the front end shares the same types. And then deploy it on Vercel.",
+      "price": 0,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "ahfh456"
+    },
+    {
+      "title": "Full Stack Blog App with Next.js",
+      "description": "In this video series, I will review how I built https://rosekamal.love using Next.js as the front-end framework, tailwind CSS for the styling system, TRPC for  API Routes, and Prisma for our Database. I will show you how to create a complete stack application that is type-safe from the backend till the front end shares the same types. And then deploy it on Vercel.",
+      "price": 0,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "zhfh456"
+    }
+  ],
+  "events": [
+    {
+      "title": "Web Development Bootcamp",
+      "description": "In this bootcamp I will go through complete web development fundamentals and modern full stack development tech tutorials.",
+      "price": 0,
+      "datetime": "2023-09-22T01:30:00.000-05:00",
+      "duration": 60,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "featured": true,
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "whfh456",
+      "event_type": "virtual",
+      "event_url": "https://meet.google.com/xbi-yudg-omf",
+      "event_location": ""
+    },
+    {
+      "title": "Web Development Bootcamp",
+      "description": "In this bootcamp I will go through complete web development fundamentals and modern full stack development tech tutorials.",
+      "price": 0,
+      "datetime": "2023-09-22T01:30:00.000-05:00",
+      "duration": 60,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "featured": true,
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "ihfh456",
+      "event_type": "virtual",
+      "event_url": "https://meet.google.com/xbi-yudg-omf",
+      "event_location": ""
+    },
+    {
+      "title": "Web Development Bootcamp",
+      "description": "In this bootcamp I will go through complete web development fundamentals and modern full stack development tech tutorials.",
+      "price": 0,
+      "datetime": "2023-09-22T01:30:00.000-05:00",
+      "duration": 60,
+      "featured": false,
+      "thumbnail": "https://res.cloudinary.com/dvisf70pm/image/upload/v1680159544/e7b7a422-4159-4f0e-8413-faafb869bd03_y9yatb.jpg",
+      "creator": "@rosekamallove",
+      "ogdescription": "Transform your coding skills with our web dev bootcamp",
+      "id": "jhfh456",
+      "event_type": "virtual",
+      "event_url": "https://meet.google.com/xbi-yudg-omf",
+      "event_location": ""
+    }
+  ]
+}
