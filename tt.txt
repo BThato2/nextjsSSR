@@ -1,0 +1,54 @@
+DATABASE_URL: [ 'Required' ],
+                                    NEXTAUTH_SECRET: [ 'Required' ],
+                                    NEXTAUTH_URL: [ 'Required' ],
+                                    GOOGLE_CLIENT_ID: [ 'Required' ],
+                                    GOOGLE_CLIENT_SECRET: [ 'Required' ],
+                                    NEXT_PUBLIC_MIXPANEL_ID: [ 'Required' ],
+                                    REGION: [ 'Required' ],
+                                    ACCESS_KEY_ID: [ 'Required' ],
+                                    SECRET_ACCESS_KEY: [ 'Required' ],
+                                    S3_BUCKET: [ 'Required' ],
+                                    S3_DOMAIN: [ 'Required' ],
+                                    SES_ACCESS_KEY: [ 'Required' ],
+                                    SES_SECRET_KEY: [ 'Required' ],
+                                    SES_SMTP_USERNAME: [ 'Required' ],
+                                    SES_SMTP_PASSWORD: [ 'Required' ],
+                                    PUBLIC_CF_ID: [ 'Required' ],
+                                    PUBLIC_CF_DOMAIN: [ 'Required' ],
+                                    PRIVATE_CF_ID: [ 'Required' ],
+                                    PRIVATE_CF_DOMAIN: [ 'Required' ],
+                                    PRIVATE_CF_KEYPAIR_ID: [ 'Required' ],
+                                    PRIVATE_CF_KEY: [ 'Required' ],
+                                    YOUTUBE_API_KEY: [ 'Required' ],PRIVATE_CF_ID
+                                    MIXPANEL_TOKEN: [ 'Required' ],
+                                    RAZORPAY_KEY_ID: [ 'Required' ],
+                                    RAZORPAY_KEY_SECRET: [ 'Required' ]
+
+
+                                    DATABASE_URL: [ 'Invalid url' ],
+                                    NEXTAUTH_URL: [ 'Invalid url' ],
+                                    SES_SECRET_KEY: [ 'Required' ],
+                                    SES_SMTP_PASSWORD: [ 'Required' ],
+                                    PRIVATE_CF_ID: [ 'Required' ],
+                                    PRIVATE_CF_DOMAIN: [ 'Required' ],
+                                    MIXPANEL_TOKEN: [ 'Required' ],
+                                    RAZORPAY_KEY_SECRET: [ 'Required' ]
+                                    }
+
+
+                                    frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - node -v
+        - npm run-script build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
